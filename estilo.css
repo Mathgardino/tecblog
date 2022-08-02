@@ -8,3 +8,15 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e6e6e6;
 }
+
+/* ******Layout******* */
+
+#cabeçalho{
+    background-color:#00BFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo , #menu{
+    padding: 10px;
+}
