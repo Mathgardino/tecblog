@@ -46,3 +46,34 @@ h1{
 .branco{
     color: white;
 }
+
+/* ******Area de postagens********/
+
+#principal{
+    width: 920px;
+    margin: 0px auto;
+    border: solid gold;
+}
+
+#postagem{
+    width: 660px;
+    border: solid red;
+    float: left;
+    background: red;
+}
+
+#lateral{
+    width: 240px;
+    border: solid blue;
+    float: right;
+    background-color: blue;
+}
+
+#rodape{
+    padding: 15px;
+    text-align: center;
+    clear: both;
+    background-color: #CCC;
+}
+
+/* ****** */
