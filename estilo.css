@@ -20,7 +20,22 @@ body{
 #logo , #menu{
     padding: 10px;
 }
+/* ******Formatação dos Links******* */
 
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:white;
+    padding: 8px;
+}
+
+a:hover{
+    color: #00BFFF;
+    background-color: white;
+    
+}
 /* ******Formatações Gerais******* */
 
 h1{
