@@ -20,3 +20,14 @@ body{
 #logo , #menu{
     padding: 10px;
 }
+
+/* ******Formatações Gerais******* */
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white;
+}
