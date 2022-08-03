@@ -28,7 +28,8 @@ a{
 }
 
  a:link, a:visited {
-    color: #00BFFF;;
+    color:gray;
+    font-weight: bold;
 
 }
 
@@ -58,7 +59,15 @@ h1{
 }
 
 h2{
-    color: #00BFFF;
+    color: gray;
+    font-weight: bold;
+}
+
+h3{
+    color:#565656 ;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #CCC;
 }
 
 .branco{
@@ -74,26 +83,32 @@ h2{
     font-weight: bold;
 }
 
+.postagem-lateral{
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+    
+}
+
+
+
+
 /* ******Area de postagens********/
 
 #principal{
     width: 920px;
     margin: 0px auto;
-    border: solid gold;
     padding: 15px;
 }
 
 #postagem{
     width: 660px;
-    border: solid red;
     float: left;
 }
 
 #lateral{
     width: 240px;
-    border: solid blue;
     float: right;
-    background-color: blue;
 }
 
 #rodape{
@@ -111,4 +126,14 @@ h2{
     background-color: #FFF;
     
 }
+
+/* *****Postagens Laterais***** */
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
 
